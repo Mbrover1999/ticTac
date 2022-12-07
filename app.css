@@ -1,0 +1,42 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,113,1) 28%, rgba(121,77,9,1) 56%, rgba(0,212,255,1) 100%);
+}
+
+.newGameButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    margin-top: 100px;
+    color: slateblue;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 5px;
+    opacity: 80%;
+    border: solid wheat;
+    background: rgb(92,92,217);
+    background: linear-gradient(169deg, rgba(92,92,217,1) 0%, rgba(205,235,242,1) 100%);
+}
+
+.newGameButton:link {
+    text-decoration: none;
+}
+
+.newGameButton:hover{
+    background: rgb(56,56,240);
+    background: linear-gradient(169deg, rgba(56,56,240,1) 0%, rgba(205,235,242,1) 100%);
+
+}
+
+
+
+#win{
+    display: flex;
+    justify-content: center;
+    color: #F49D1A;
+    margin-bottom: 200px;
+}
+
