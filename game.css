@@ -76,3 +76,38 @@ html{
     color: #F49D1A;
 }
 
+@media (min-width:600px){
+    .container {
+        min-height: 85vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tile{
+        width: 250px;
+        height: 250px;
+        font-size: 7rem;
+    }
+    .border {
+        display: grid;
+        width: 750px;
+        height: 750px;
+        grid-template-columns: auto auto auto;
+    }
+    .score{
+        font-size: 3rem;
+    }
+
+
+    #newGameButton{
+        padding: 60px 60px;
+        font-size: 3em;
+    }
+
+    #win{
+        font-size: 3rem;
+    }
+}
+

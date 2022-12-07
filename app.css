@@ -40,3 +40,18 @@ html{
     margin-bottom: 200px;
 }
 
+@media (min-width:600px) {
+    .newGameButton{
+        width: 30%;
+        margin-top: 300px;
+        padding: 60px 60px;
+        font-size: 3em;
+        border-radius: 5px;
+    }
+    #win{
+        margin-bottom: 200px;
+        font-size: 6em;
+    }
+}
+
+
